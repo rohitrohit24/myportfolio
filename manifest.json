@@ -26,14 +26,14 @@
 "screenshots": [
     {
         "src": "img/pexels-newuel-6224589.jpg",
-        "sizes": "2880x1800",
+        "sizes": "1920x1080",
         "type": "image/jpeg",
         "description": "A screenshot of the home page",
         "form_factor": "wide"
     },
     {
         "src": "img/pexels-newuel-6224589.jpg",
-        "sizes": "2880x1800",
+        "sizes": "1080x1920",
         "type": "image/jpeg",
         "description": "A screenshot of the home page",
         "form_factor": "narrow"
