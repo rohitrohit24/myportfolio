@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohit - Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+
+<body class="">
+
+    <!-- Preloader -->
+    <!-- <div id="preloader" class="preloader">
+        <div class="spinner"></div>
+    </div> -->
+
+    <!-- Navbar -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-second">
+            <div class="container">
+                <a class="navbar-brand navbar-brand-title great-vibes-regular" href="#">Rohit</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navMenu" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto gap-lg-3">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="d-flex herodiv justify-content-between">
+                <div class="col-lg-6">
+                    <h1 class="display-5 hero-title mb-3 fadeInUp">Welcome to My Portfolio</h1>
+                    <p class="lead mb-4 fadeInUp delay-1">Creative Designer | Developer</p>
+                    <button class="hero-btn">View Work</button>
+                </div>
+                <div class="col-lg-6 heroimg-div">
+                    <div class="hero-circle-image fadeInUp delay-1">
+                        <img src="img/WhatsApp Image 2025-08-21 at 15.14.43_8f203f6b.jpg" alt="image">
+                        <h2 class="text-center pt-2 great-vibes-regular fadeInUp delay-2">Rohit Kumar</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4  section-title">About Me</h2>
+            <p class="text-center lead mb-5">
+                Hello! I’m <strong>Rohit Kumar</strong>, a passionate <strong>Web Developer</strong> and technology
+                enthusiast who loves <br>
+                transforming ideas into reality through <strong>clean code</strong> and <strong>creative
+                    design</strong>.
+            </p>
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                    <img src="img/pexels-nemuel-6424589.jpg" class="rounded-3 about-avatar" alt="Portrait photo">
+                </div>
+                <div class="col-lg-8">
+                    <div class="col-12">
+                        <h4 class="mt-4">🚀 Passion for Development</h4>
+                        <p>
+                            What excites me most is turning a blank screen into something meaningful — whether it’s a
+                            responsive website,
+                            an engaging web application, or a system that solves real-world problems. I enjoy the entire
+                            journey:
+                            <em>brainstorming ideas → designing layouts → writing code → deploying live
+                                applications</em>.
+                        </p>
+                        <div class="aboutdiv">
+                            <h4 class="mt-4">💡 Technical Expertise</h4>
+                            <ul class="mb-0">
+                                <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript (ES6+), responsive design, UI/UX
+                                    principles</li>
+                                <li><strong>Backend:</strong> PHP, MySQL, CRUD operations, authentication, form handling
+                                </li>
+                                <li><strong>Tools:</strong> Git, VS Code, phpMyAdmin, XAMPP/WAMP</li>
+                                <li><strong>Other Skills:</strong> Problem-solving, debugging, deployment, SEO basics
+                                </li>
+                            </ul>
+                        </div>
+
+                        <h4 class="mt-4">🎯 Future Goals</h4>
+                        <p>
+                            I’m continuously learning and looking forward to working with modern frameworks like
+                            <strong>React</strong>, <strong>Laravel</strong>, and <strong>Node.js</strong>. I also aim
+                            to
+                            improve my expertise in
+                            <strong>API integration, cloud hosting, and security best practices</strong>.
+                        </p>
+
+                        <h4 class="mt-4">🙌 Final Note</h4>
+                        <p>
+                            I take pride in writing code that is <strong>clean, efficient, and purposeful</strong>,
+                            while
+                            always keeping the
+                            <strong>user experience</strong> at the center. My portfolio reflects not only my skills but
+                            also my
+                            <strong>journey, dedication, and love for technology</strong>.
+                        </p>
+                        <p class="mb-0">
+                            If you’re looking for someone who can deliver <strong>responsive designs</strong>,
+                            <strong>functional applications</strong>, and
+                            <strong>reliable backend systems</strong>, I’d be happy to collaborate and grow together.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills py-5">
+        <div class="container" data-aos="fade-up">
+            <!-- Section Title -->
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-first">Skills</h2>
+                <p class="">My technical expertise and professional skills</p>
+            </div>
+
+            <div class="row">
+                <!-- Left Column -->
+                <div class="col-lg-6">
+                    <!-- HTML -->
+                    <div class="mb-4">
+                        <span class="d-flex justify-content-between">
+                            <strong>HTML</strong><span>90%</span>
+                        </span>
+                        <div class="progress" style="height: 12px;">
+                            <div class="bg-second" role="progressbar" style="width: 90%;" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <!-- CSS -->
+                    <div class="mb-4">
+                        <span class="d-flex justify-content-between">
+                            <strong>CSS</strong><span>90%</span>
+                        </span>
+                        <div class="progress" style="height: 12px;">
+                            <div class="bg-second" role="progressbar" style="width: 90%;" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <!-- JavaScript -->
+                    <div class="mb-4">
+                        <span class="d-flex justify-content-between">
+                            <strong>JavaScript</strong><span>80%</span>
+                        </span>
+                        <div class="progress" style="height: 12px;">
+                            <div class="bg-second" role="progressbar" style="width: 80%;" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="col-lg-6">
+                    <!-- PHP -->
+                    <div class="mb-4">
+                        <span class="d-flex justify-content-between">
+                            <strong>PHP & MySQL</strong><span>90%</span>
+                        </span>
+                        <div class="progress" style="height: 12px;">
+                            <div class="bg-second" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <!-- MySQL -->
+                    <div class="mb-4">
+                        <span class="d-flex justify-content-between">
+                            <strong>Content Writing</strong><span>90%</span>
+                        </span>
+                        <div class="progress" style="height: 12px;">
+                            <div class="bg-second" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <span class="d-flex justify-content-between">
+                            <strong>Data Entry</strong><span>90%</span>
+                        </span>
+                        <div class="progress" style="height: 12px;">
+                            <div class="bg-second" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- work process -->
+    <section id="work-process" class="work">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <!-- Left content -->
+                <div class="col-xl-6 pe-xl-5">
+                    <p class="section-title text-center text-xl-start text-first mb-0">Work Process</p>
+                    <p class="work-lead mt-3 mb-2 text-center text-xl-start">
+                        Driven by design and powered by code, I create digital interfaces that feel intuitive and
+                        perform seamlessly. Every layout, animation, and component is crafted with intention — merging
+                        usability with visual clarity,
+                    </p>
+                    <p class="work-lead mt-3 text-center text-xl-start">
+                        I blend clean design with efficient code to build engaging, user-friendly web experiences that
+                        stand out.
+                    </p>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row g-3 justify-content-end">
+
+                        <div class="col-12 col-sm-6">
+                            <div class="wp-card h-100">
+                                <div class="wp-icon">
+                                    <i class="fa-solid fs-4 text-first fa-magnifying-glass"></i>
+                                </div>
+                                <div class="mt-3">
+                                    <p class="wp-step">1. Research</p>
+                                    <p class="wp-desc">Design meets function in every pixel, blending clarity with
+                                        intuitive motion.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <div class="wp-card h-100">
+                                <div class="wp-icon">
+                                    <i class="fa-solid fs-4 text-first fa-chart-line"></i>
+                                </div>
+                                <div class="mt-3">
+                                    <p class="wp-step">2. Analyze</p>
+                                    <p class="wp-desc">Crafting clean, thoughtful interfaces where form flows seamlessly
+                                        into function and clarity.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <div class="wp-card h-100">
+                                <div class="wp-icon">
+                                    <i class="fa-solid fs-4 text-first fa-pencil"></i>
+                                </div>
+                                <div class="mt-3">
+                                    <p class="wp-step">3. Design</p>
+                                    <p class="wp-desc">I design seamless digital experiences with precision, purpose,
+                                        and a touch of elegance.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <div class="wp-card h-100">
+                                <div class="wp-icon">
+                                    <i class="fa-solid fs-4 text-first fa-laptop-code"></i>
+                                </div>
+                                <div class="mt-3">
+                                    <p class="wp-step">4. Launch</p>
+                                    <p class="wp-desc">I craft digital products where thoughtful design meets
+                                        performance-driven, responsive development.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div><!-- row -->
+                </div><!-- right -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title text-first h2">Portfolio</h2>
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="portfolio-card">
+                        <img src="https://via.placeholder.com/400x300?text=Project+1" alt="">
+                        <div class="portfolio-overlay">
+                            <p>View Project</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="portfolio-card">
+                        <img src="https://via.placeholder.com/400x300?text=Project+2" alt="">
+                        <div class="portfolio-overlay">
+                            <p>View Project</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="portfolio-card">
+                        <img src="https://via.placeholder.com/400x300?text=Project+3" alt="">
+                        <div class="portfolio-overlay">
+                            <p>View Project</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-wra py-5">
+        <div class="container text-center mb-5">
+            <h1 class="contact-title text-first mb-3">Contact Us</h1>
+            <p class="contact-sub mx-auto">
+                Ready to get started? Feel free to reach out through the contact form, and let's embark on a journey of
+                innovation and success.
+            </p>
+        </div>
+
+        <div class="container contact-card border rounded-4 shadow-sm">
+            <div class="row g-3 p-4 p-md-5">
+                <!-- Left: Contact info -->
+                <div class="col-lg-5">
+                    <div class="col-md-12 info-pane h-100 rounded-3 p-4 p-md-5">
+                        <h4 class="info-title mb-2">Contact Information</h4>
+                        <p class="info-text mb-4">Fill up the form and our Team will get back to you within 24 hours.
+                        </p>
+
+                        <div class="d-flex align-items-center gap-3 mb-2">
+                            <span class="icon-box">
+                                <!-- phone icon -->
+                                <i class="fa-solid fs-5 fa-phone"></i>
+                            </span>
+                            <h6 class="mb-0 text-white contact-font fw-semibold">+91 63756 - 67964</h6>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-3 mb-2">
+                            <span class="icon-box">
+                                <!-- mail icon -->
+                                <i class="fa-solid fs-5 fa-envelope"></i>
+                            </span>
+                            <h6 class="mb-0 text-white contact-font fw-semibold">rohitverma77270@gmail.com</h6>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <span class="icon-box">
+                                <!-- ticket icon -->
+                                <i class="fa-solid fs-5 fa-ticket"></i>
+                            </span>
+                            <h6 class="mb-0 text-white contact-font fw-semibold">Open Support Ticket</h6>
+                        </div>
+
+                        <div class="d-flex gap-2">
+                            <button type="button" class="social-btn"><i class="fa-brands fa-facebook"></i></button>
+                            <button type="button" class="social-btn"><i class="fa-brands fa-instagram"></i></button>
+                            <button type="button" class="social-btn"><i class="fa-brands fa-github"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Form -->
+                <div class="col-lg-7 mt-4 mt-lg-0">
+                    <form class="contact-form">
+                        <div class="row g-3 mb-3">
+                            <div class="col-md-6">
+                                <div class="float-group">
+                                    <input type="text" class="form-control float-input" placeholder=" " id="firstName">
+                                    <label for="firstName" class="float-label">First Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="float-group">
+                                    <input type="text" class="form-control float-input" placeholder=" " id="lastName">
+                                    <label for="lastName" class="float-label">Last Name</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="float-group">
+                                <input type="email" class="form-control float-input" placeholder=" " id="email">
+                                <label for="email" class="float-label">Email</label>
+                            </div>
+                        </div>
+
+                        <p class="interest-label mb-2">What are you interested in?</p>
+                        <div class="d-flex flex-wrap gap-3 mb-4">
+                            <label class="radio-chip">
+                                <input type="radio" name="type" checked>
+                                <span>Design</span>
+                            </label>
+                            <label class="radio-chip">
+                                <input type="radio" name="type">
+                                <span>Development</span>
+                            </label>
+                            <label class="radio-chip">
+                                <input type="radio" name="type">
+                                <span>Support</span>
+                            </label>
+                            <label class="radio-chip">
+                                <input type="radio" name="type">
+                                <span>Other</span>
+                            </label>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="float-group">
+                                <textarea class="form-control float-input" rows="4" placeholder=" "
+                                    id="message"></textarea>
+                                <label for="message" class="float-label">Your Message</label>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn-send">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p class="h5 fw-bold text-first mb-3">Portfolio</p>
+            <div class="d-flex justify-content-center gap-3 mb-3">
+                <!-- your icons -->
+            </div>
+            <p class="mb-0">© 2025 Rohit Kumar. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!-- Back-to-Top -->
+    <button id="back-to-top" class="btn btn-primary rounded-circle p-3 back-to-top" aria-label="Back to top">
+        <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+        </svg>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Small scripts -->
+    <script>
+        window.addEventListener('load', () => { document.getElementById('preloader').style.display = 'none'; });
+        const btn = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => { btn.style.display = window.scrollY > 300 ? 'inline-flex' : 'none'; });
+        btn.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    </script>
+</body>
+
+</html>
