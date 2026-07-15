@@ -628,6 +628,18 @@
     <script>
       navigator.serviceWorker.register("pwabuilder-adv-sw.js");
     </script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("./pwabuilder-adv-sw.js")
+            .then((reg) =>
+              console.log("PWABuilder Service Worker Registered!", reg),
+            )
+            .catch((err) => console.log("Registration Failed:", err));
+        });
+      }
+    </script>
 
     <!-- Small scripts -->
     <!-- <script>
