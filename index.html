@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>Rohit - Personal Portfolio</title>
     <link
       rel="stylesheet"
@@ -23,9 +26,25 @@
     <link rel="manifest" href="manifest.json" />
     <style>
       body {
+        -webkit-user-select: none; /* Safari/Chrome mobile */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE/Edge */
+        user-select: none; /* Standard */
+
+        -webkit-touch-callout: none;
         font-family: "Poppins", sans-serif;
         background-color: white;
         color: black;
+      }
+      input,
+      textarea {
+        -webkit-user-select: text;
+        -moz-user-select: text;
+        -ms-user-select: text;
+        user-select: text;
+      }
+      html {
+        touch-action: manipulation; /* Double-tap zoom completely disable ho jata hai click handle karte waqt */
       }
     </style>
   </head>
