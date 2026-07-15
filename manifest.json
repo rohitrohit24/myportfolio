@@ -28,7 +28,15 @@
         "src": "img/pexels-newuel-6224589.jpg",
         "sizes": "2880x1800",
         "type": "image/jpeg",
-        "description": "A screenshot of the home page"
+        "description": "A screenshot of the home page",
+        "form_factor": "wide"
+    },
+    {
+        "src": "img/pexels-newuel-6224589.jpg",
+        "sizes": "2880x1800",
+        "type": "image/jpeg",
+        "description": "A screenshot of the home page",
+        "form_factor": "narrow"
     }
 ],
 "related_applications": [
